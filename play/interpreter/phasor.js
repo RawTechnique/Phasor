@@ -19,7 +19,7 @@ var Phasor =
 {
   // starts the Phasort.net AGI interpreter
   // @param path = path of a single game, containing the logic js files, and images
-  // @param multiplayerEnabled = enable multiplayer using the q42multiplayer engine
+  // @param multiplayerEnabled = enable multiplayer using the  engine
   net: function(path, multiplayerEnabled) {
     // set browser specific classnames on the html element
     if (Agent.IE) document.body.parentNode.className = "ie";

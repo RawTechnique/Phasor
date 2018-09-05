@@ -2,7 +2,7 @@
 
 == The process ==
 
-The conversion is done by a utility called AgiConvert, but doesn't use the original game files directly.
+The conversion is done by a utility called PhasorConvert, but doesn't use the original game files directly.
 Instead, it requires all pictures, views and logics to be exported first by WinAGI, a 3rd party
 utility, available at www.winagi.com.
 
@@ -21,14 +21,14 @@ moment on, the conversion to Phasor can be repeated without these steps.
 
 You'll see two folders
 
-AgiConvert : sourcecode of the AgiConvert utility
+PhasorConvert : sourcecode of the PhasorConvert utility
 game : a game, ready to convert
 
 Open up the game folder and you'll see this:
 
 1-original : Put your original game here
 2-exported : Put the exported game resources here (*.lgc, *.agp, *.agv)
-3-converted : After conversion with AgiConvert, this folder will contain a Phasor game
+3-converted : After conversion with PhasorConvert, this folder will contain a Phasor game
 
 === Exporting resources using WinAGI ===
 

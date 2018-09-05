@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AgiConvert")]
-[assembly: AssemblyDescription("Conversion utility for Sierra AGI games, to make them playable in the Phasor interpreter.")]
+[assembly: AssemblyTitle("PhasorConvert")]
+[assembly: AssemblyDescription("Conversion utility for C and .NET games, to make them playable in the Phasor interpreter.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Martin Kool of Q42 Internet B.V.")]
-[assembly: AssemblyProduct("AgiConvert")]
-[assembly: AssemblyCopyright("Copyright ©  2009")]
+[assembly: AssemblyCompany("Compute")]
+[assembly: AssemblyProduct("PhasorConvert")]
+[assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

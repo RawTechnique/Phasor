@@ -1,6 +1,6 @@
 ﻿/// Multiplayer - The tiny multiplayer javascript engine
-/// Copyright (c) 2009 by Q42 Internet B.V.
-/// Written by Martin Kool
+/// Open .NET and C to Java Conversion
+/// Written by Compute
 var Multiplayer = {
 
   // preset user id and interval timer

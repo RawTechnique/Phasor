@@ -303,7 +303,7 @@ namespace AGI
         // new_room exists as method and flagname
         js = Regex.Replace(js, @"new_room\(", "cmd_new_room(");
 
-        if (!AgiConvert.OptimizeJs)
+        if (!PhasorConvert.OptimizeJs)
         {
           // use known var names
           for (int i = 0; i < Vars.Length; i++)
@@ -329,7 +329,7 @@ namespace AGI
           js = Regex.Replace(js, @"\b" + s + @"\(", "cmd_" + s + "(");
 
 
-        if (AgiConvert.OptimizeJs)
+        if (PhasorConvert.OptimizeJs)
         {
           // make sure NO varnames are used
           for (int i = 0; i < Vars.Length; i++)
@@ -378,7 +378,7 @@ namespace AGI
           js += messages;
         }
         
-        if (AgiConvert.OptimizeJs)
+        if (PhasorConvert.OptimizeJs)
         {
           // replaces (back) cmd_print("bla") to cmd_print(n) where n is the index in the MESSAGES array
           for (int i=0; i<msgLines.Length; i++)

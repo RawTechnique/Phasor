@@ -4,16 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Demo", "Demo\", "{E07D9171-7ACB-4CAF-9456-8DB5CC9C7ACB}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFramework = "2.0"
-		ProjectReferences = "{BEAA0C1D-5275-4A70-8D6F-53CC0B870DF0}|Q42.Wheels.Multiplayer.dll;"
+		ProjectReferences = "{BEAA0C1D-5275-4A70-8D6F-53CC0B870DF0}|Phasor.Wheels.Multiplayer.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/Demo"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Inetpub\q42multiplayer\trunk\Demo\"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Inetpub\\trunk\Demo\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Demo\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/Demo"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Inetpub\q42multiplayer\trunk\Demo\"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Inetpub\\trunk\Demo\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Demo\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
@@ -22,7 +22,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Demo", "Demo\", "{E07D9171-
 		VWDPort = "4315"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q42.Wheels.Multiplayer", "Q42.Wheels.Multiplayer\Q42.Wheels.Multiplayer.csproj", "{BEAA0C1D-5275-4A70-8D6F-53CC0B870DF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phasor.Wheels.Multiplayer", "Phasor.Wheels.Multiplayer\Phasor.Wheels.Multiplayer.csproj", "{BEAA0C1D-5275-4A70-8D6F-53CC0B870DF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

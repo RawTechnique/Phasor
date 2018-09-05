@@ -8,8 +8,8 @@
     <ProjectGuid>{42116A93-27B1-4365-8108-FF9E1585BDC3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AgiConvert</RootNamespace>
-    <AssemblyName>AgiConvert</AssemblyName>
+    <RootNamespace>PhasorConvert</RootNamespace>
+    <AssemblyName>PhasorConvert</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -49,7 +49,7 @@
     <Compile Include="src\Logic.cs" />
     <Compile Include="src\Picture.cs" />
     <Compile Include="src\View.cs" />
-    <Compile Include="src\AgiConvert.cs" />
+    <Compile Include="src\PhasorConvert.cs" />
     <Compile Include="src\Quantizer.cs" />
     <Compile Include="src\Xml\XmlGame.cs" />
     <Compile Include="src\Xml\XmlPicture.cs" />

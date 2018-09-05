@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace AGI
 {
-  public class AgiConvert
+  public class PhasorConvert
   {
     private static DirectoryInfo dir;
     private static string srcPath = @"c:\Inetpub\Phasor\trunk\Games\sq2\src";
@@ -94,8 +94,8 @@ namespace AGI
       }
       else
       {
-        Console.WriteLine("AgiConvert - AGI source converter to web usuable format.");
-        Console.WriteLine("Usage: agiconvert.exe [srcpath] [destinationpath] [-p] [-v] [-l] [-j]");
+        Console.WriteLine("PhasorConvert - AGI source converter to web usuable format.");
+        Console.WriteLine("Usage: PhasorConvert.exe [srcpath] [destinationpath] [-p] [-v] [-l] [-j]");
         Console.WriteLine("       where -p, -v, -l and -j enable pictures, views, logics and game.js file respectively.");
         Console.WriteLine("       Note that -j operator requires -p and -v operators to have created xml files already.");
 
